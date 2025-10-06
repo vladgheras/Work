@@ -1,0 +1,36 @@
+.vscode/
+
+Dependințe și medii virtuale
+==================================
+Folderul de module Node.js din frontend
+/frontend/node_modules/
+
+Mediul virtual Python din backend
+/backend/venv/
+
+Fișiere de cache și compilate Python
+===================================
+pycache/
+*.pyc
+
+Fișiere de build și output
+==================================
+Folderul de build al aplicației React
+/frontend/build/
+
+Fișier de sistem macOS
+.DS_Store
+
+Fișiere de log
+==================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+Variabile de mediu (conțin secrete!)
+========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
